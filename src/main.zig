@@ -58,7 +58,7 @@ pub fn main() void {
     //const result = eval("1+10-31+2+3"); //
     //const result = eval("if 0 10 11"); // 11
     const result = eval("if 0 10 11+2"); // 13
-    std.debug.print("{}\n", .{result}); // 出力: 6
+    std.debug.print("{}\n", .{result});
 }
 
 const std = @import("std");
